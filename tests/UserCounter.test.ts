@@ -20,8 +20,6 @@ describe('UserCounter', () => {
 
         uc.increase(joe)
             .increase(joe)
-            .increase(joe)
-            .increase(joe)
             .increase(joe);
 
         expect(uc.getMostPopularName()).toStrictEqual('Joe Snow');
@@ -41,11 +39,12 @@ describe('UserCounter', () => {
         });
 
         uc.increase(claire)
-            .increase(claire)
             .increase(joe)
             .increase(joe)
-            .increase(joe);
+            .increase(joe)
+            .increase(claire);
 
         expect(uc.getMostPopularName()).toStrictEqual('Joe Snow');
     });
 });
+
