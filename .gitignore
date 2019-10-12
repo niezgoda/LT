@@ -1,6 +1,6 @@
 /.idea
-/node_modules
+/test-driven-development/node_modules
 /.vscode
-/dist
-/reports
-/junit.xml
+/test-driven-development/dist
+/test-driven-development/reports
+/test-driven-development/junit.xml
