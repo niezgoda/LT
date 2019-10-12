@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="9" failures="0" time="1.338">
+  <testsuite name="UserCounter" errors="0" failures="0" skipped="0" timestamp="2019-10-12T13:00:45" time="0.795" tests="3">
+    <testcase classname="UserCounter should throw when no name is given" name="UserCounter should throw when no name is given" time="0.007">
+    </testcase>
+    <testcase classname="UserCounter should get one most popular name" name="UserCounter should get one most popular name" time="0.003">
+    </testcase>
+    <testcase classname="UserCounter should get one most popular name" name="UserCounter should get one most popular name" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="FizzBuzz" errors="0" failures="0" skipped="0" timestamp="2019-10-12T13:00:45" time="0.088" tests="4">
+    <testcase classname="FizzBuzz should generate string from number on 1, 2, 4, 6, etc." name="FizzBuzz should generate string from number on 1, 2, 4, 6, etc." time="0.007">
+    </testcase>
+    <testcase classname="FizzBuzz should generate fizz on divisible by 3" name="FizzBuzz should generate fizz on divisible by 3" time="0.002">
+    </testcase>
+    <testcase classname="FizzBuzz should generate buzz on divisible by 5" name="FizzBuzz should generate buzz on divisible by 5" time="0.001">
+    </testcase>
+    <testcase classname="FizzBuzz should generate fizzbuzz on divisible by 3 and 5" name="FizzBuzz should generate fizzbuzz on divisible by 3 and 5" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="Counter" errors="0" failures="0" skipped="0" timestamp="2019-10-12T13:00:45" time="0.079" tests="2">
+    <testcase classname="Counter should increase by one when no other service is running" name="Counter should increase by one when no other service is running" time="0.001">
+    </testcase>
+    <testcase classname="Counter should increase by one when other service is running but not in async" name="Counter should increase by one when other service is running but not in async" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "declaration": true,
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "noUnusedLocals": true,
+        "noImplicitReturns": true,
+        "sourceMap": true,
+        "experimentalDecorators": true,
+
+        "lib": [
+            "esnext",
+            "dom"
+        ],
+
+        "outDir": "./dist"
+    },
+    "include": [
+        "src/**/*.ts",
+        "typings/**/*.d.ts",
+        "tests/**/*.ts"
+    ]
+}

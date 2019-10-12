@@ -1,0 +1,30 @@
+{
+  "engines": {
+    "node": ">= 10.0.0"
+  },
+  "dependencies": {
+    "typescript": "3.6.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "postinstall": "tsc",
+    "run": "rm -rf dist/ && npm run build && node dist/src/index.js",
+    "test": "npm run ts:lint && npm run test:coverage",
+    "test:coverage": "jest --detectOpenHandles --forceExit --coverage --verbose",
+    "test:unit": "jest --detectOpenHandles --forceExit --verbose",
+    "test:watch": "npm run test -- --watchAll",
+    "ts:build": "tsc",
+    "ts:watch": "tsc -w",
+    "ts:lint": "tslint -c tslint.json -p tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "jest": "^24.9.0",
+    "jest-junit": "^8.0.0",
+    "ts-jest": "^24.1.0",
+    "tslint": "^5.20.0"
+  },
+  "jest-junit": {
+    "output": "./reports/tests/junit.xml"
+  }
+}
